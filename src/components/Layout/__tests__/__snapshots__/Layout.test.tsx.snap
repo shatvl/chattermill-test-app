@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders layout layout matches snapshot 1`] = `
+Array [
+  .c0 {
+  padding: 0 0.5rem;
+}
+
+<main
+    className="c0"
+  />,
+  <footer />,
+]
+`;

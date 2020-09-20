@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button default MD button check snapshot 1`] = `
+.c0 {
+  display: inline-block;
+  width: initial;
+  vertical-align: middle;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  color: #ff8489;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.15s all ease-in-out;
+  transition: 0.15s all ease-in-out;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c0:hover,
+.c0:active {
+  outline: none;
+}
+
+.c0:active {
+  background-color: rgba(255,132,136,.5);
+  border-color: rgba(255,132,136,.2);
+}
+
+.c0:disabled,
+.c0:disabled:hover,
+.c0:disabled:focus,
+.c0:disabled:active {
+  cursor: not-allowed;
+  color: #c4c9cc;
+}
+
+<button
+  className="c0"
+>
+  click me
+</button>
+`;
+
+exports[`renders button extra small XS button check snapshot 1`] = `
+.c0 {
+  display: inline-block;
+  width: initial;
+  vertical-align: middle;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.25rem 0.375rem;
+  border-radius: 0.25rem;
+  color: #ff8489;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.15s all ease-in-out;
+  transition: 0.15s all ease-in-out;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c0:hover,
+.c0:active {
+  outline: none;
+}
+
+.c0:active {
+  background-color: rgba(255,132,136,.5);
+  border-color: rgba(255,132,136,.2);
+}
+
+.c0:disabled,
+.c0:disabled:hover,
+.c0:disabled:focus,
+.c0:disabled:active {
+  cursor: not-allowed;
+  color: #c4c9cc;
+}
+
+<button
+  className="c0"
+  size="xs"
+>
+  click me
+</button>
+`;

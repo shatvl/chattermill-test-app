@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders collapsed text check collapsed text, check click on "read more" 1`] = `
+.c3 {
+  display: inline-block;
+  width: initial;
+  vertical-align: middle;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.25rem 0.375rem;
+  border-radius: 0.25rem;
+  color: #ff8489;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.15s all ease-in-out;
+  transition: 0.15s all ease-in-out;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.c3:hover,
+.c3:active {
+  outline: none;
+}
+
+.c3:active {
+  background-color: rgba(255,132,136,.5);
+  border-color: rgba(255,132,136,.2);
+}
+
+.c3:disabled,
+.c3:disabled:hover,
+.c3:disabled:focus,
+.c3:disabled:active {
+  cursor: not-allowed;
+  color: #c4c9cc;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .c2 {
+  margin-left: -0.375rem;
+}
+
+.c1 {
+  max-height: 3.375rem;
+  line-height: 1.6875rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+<styled.div>
+  <div
+    className="c0"
+  >
+    <styled.div
+      lineHeight="1.6875rem"
+      maxHeight="3.375rem"
+    >
+      <div
+        className="c1"
+      >
+        Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text. Collapsed long text.
+      </div>
+    </styled.div>
+    <styled.button
+      onClick={[Function]}
+      size="xs"
+    >
+      <button
+        className="c2 c3"
+        onClick={[Function]}
+        size="xs"
+      >
+        Read more
+      </button>
+    </styled.button>
+  </div>
+</styled.div>
+`;
+
+exports[`renders collapsed text not collapsed text matches snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .sc-bdnylx {
+  margin-left: -0.375rem;
+}
+
+.c1 {
+  max-height: initial;
+  line-height: 1.6875rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    I'm not collapsed
+  </div>
+</div>
+`;

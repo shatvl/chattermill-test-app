@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders input group input group matches snapshot 1`] = `
+.c0 {
+  position: relative;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.c1 {
+  display: block;
+  width: 100%;
+  height: 3.375rem;
+  padding: calc(.75rem - 0.0625rem) calc(.9rem - 0.0625rem);
+  border: 0.0625rem solid #c4c9cc;
+  border-radius: 0.25rem;
+  outline: none;
+  -webkit-transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease;
+  word-break: break-word;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.c1::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.c1::placeholder {
+  opacity: 1;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+</div>
+`;

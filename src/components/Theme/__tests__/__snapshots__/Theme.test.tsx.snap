@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders theme theme snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0.75rem 0 0;
+  padding-right: 1.5rem;
+}
+
+.c1 {
+  font-size: 1.25rem;
+}
+
+.c2 {
+  margin: -0.25rem 0 0 0.75rem;
+  color: #707579;
+}
+
+<dl
+  className="c0"
+>
+  <dt
+    className="c1"
+  >
+    <span>
+      🤩
+    </span>
+  </dt>
+  <dd
+    className="c2"
+  >
+    General
+  </dd>
+</dl>
+`;
