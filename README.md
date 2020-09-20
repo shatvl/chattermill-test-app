@@ -6,6 +6,7 @@
 
     ```shell
     cd ./chattermill-test-app
+    yarn install
     yarn develop
     ```
 
