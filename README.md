@@ -5,8 +5,14 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
-    gatsby develop
+    cd ./chattermill-test-app
+    yarn develop
+    ```
+
+1.  **Run tests.**
+
+    ```
+    yarn test
     ```
 
 2.  **Open the source code and start editing!**
