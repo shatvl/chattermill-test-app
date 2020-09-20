@@ -3,7 +3,7 @@
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up. 
-    PS: Not a good practice to store .env in git, but it's simplier to test task :)
+    **PS: Not a good practice to store .env in git, but it's simplier to test task :)**
 
     ```shell
     cd ./chattermill-test-app
